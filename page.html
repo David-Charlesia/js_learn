@@ -1,15 +1,25 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Page</title>
+    <link rel="stylesheet" type="text/css" href=style/style.css"/>
   </head>
   <body>
-    <h3>Ce qui suit est du javascript</h3>
-    <script type="text/javascript">
-      var first="Hello world !";
-      trer'<rb></rb>
-    </script>
+    <h3 class="titre">Devinez un nombre</h3>
+    <p>Nous avons généré un nombre aléatoire entre 1 et 100, tentez de le deviner en 10 tours maximum. Pour chaque tentative, nous vous dirons si votre estimation est trop ou pas assez élevée.
+    </p>
 
+
+    <label for="reponse">Entrez votre nombre : </label>
+    <input type="text" class="reponse">
+    <input type="submit" value="Envoyé" class="bt">
+
+    <p class="old"></p>
+    <p class="rep"></p>
+    <p class="indic"></p>
+
+    <script type="text/javascript" src="first.js"></script>
+    
   </body>
 </html>
